@@ -39,6 +39,11 @@ body {
   text-align: justify;
 }
 
+footer {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
