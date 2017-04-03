@@ -3,21 +3,40 @@ body {
   padding-bottom: 20px;
 }
 
+.bm {
+  margin-bottom: 12px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
   }
+}
+.container .jumbotron {
+  padding: 20px 40px;
 }
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 
+.jumbotron h1 {
+  font-size: 2.4em;
+}
+
+.highlight {
+  border-radius: 4px;
+  background: #39CCCC;
+  padding: 8px 12px;
+}
 .marketing {
   margin: 40px 0;
 }
 .marketing p + h4 {
   margin-top: 28px;
+}
+.marketing {
+  text-align: justify;
 }
 
 /* Responsive: Portrait tablets and up */
