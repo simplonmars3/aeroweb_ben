@@ -24,6 +24,9 @@ body {
   font-size: 2.4em;
 }
 
+.jumbotron > img {
+  margin: 0 10px 0 10px;
+}
 .highlight {
   border-radius: 4px;
   background: #39CCCC;
@@ -37,6 +40,11 @@ body {
 }
 .marketing {
   text-align: justify;
+}
+
+.footer > div {
+  /*margin-bottom:10px;*/
+  height: 100px;
 }
 
 footer {
